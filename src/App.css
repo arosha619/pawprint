@@ -1,1 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  height: 100vh; 
+}
+
+.left {
+  width: 20%;
+  height: 100vh;
+  background-color: rgba(8, 176, 222, 0.825);
+  
+}
+.right{
+  background-color: #FF8533;
+  width: 80%;
+  height: 100vh;
+}
 
