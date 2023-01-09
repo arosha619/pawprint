@@ -4,6 +4,26 @@
     border: 1px;
     background-color: #FFFFFF33;
     border-radius: 37px;
-    margin: 20px auto 20px auto;
+    margin: 20px auto 20px auto;  
+   
+}
+.fieldOne{
+    padding-top: 20px;
+    padding-left: 20px;
+    display:grid;
+    position:relative;
+    background-color: rgba(0, 162, 162, 0.471);
+
+}
+.fieldTwo{
+    display:flex;
+    justify-content: center;
+    margin:320px;
+    background-color: rgba(80, 177, 177, 0.471);
     
+}
+input{
+    width: 200px;
+    border-radius: 5px;
+    height: 25px;
 }
