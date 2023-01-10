@@ -1,7 +1,8 @@
-import React from 'react';
+import React,{useState} from 'react';
 import "../Document/Document.css"
 
 export default function Document() {
+  const [Date,setDate]= useState();
   return (
     <>
         <div className='container'>
@@ -9,20 +10,20 @@ export default function Document() {
             <h3>Document</h3>
 
             <label for="name">Pet Name</label>
-            <input type="text" name="name" id="name" />
+            <input type="text" name="name" id="input1" />
 
             <label for="Documentname">Document Name</label>
-            <input type="text" name="Docname" id="DocName" />
+            <input type="text" name="Docname" id="input1" />
 
             <label for="name">Date</label>
-            <input></input>
+            <input type="date" onChange={e=>setDate(e.target.value)} id="date"/>
 
             <label for="name">Upload Documents</label>
-            <input></input>
+            <input id='input4' ></input>
             </div>
             <div className='fieldTwo'>
-              <button>Submit</button>
-              <button>Next</button>
+              <button className='btn'>Submit</button>
+              <button className='btn'>Next</button>
             </div>
         </div>
     </>
