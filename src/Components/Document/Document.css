@@ -1,23 +1,23 @@
-.container{
-    width: 97%;
-    height: 95vh;
-    border: 1px;
-    background-color: #FFFFFF33;
-    border-radius: 37px;
-    margin: 20px auto 20px auto;  
-   
-}
-.container label,h3{
+label,h3{
     color: #ffffff;
 
 }
+.head{
+   padding-top: 45px;
+   padding-left: 80px;
+}
+.arrow,h3{
+    display: inline;
+    margin-left: 25px;
+      
+}
+
 .fieldOne{
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 80px;
     display:grid;
-    position:relative;
-    
-
+    grid-gap:5px;
+   
 }
 #input1{
     width: 411px;
@@ -48,13 +48,7 @@
     border-radius: 11px;
     cursor: pointer;
 }
-.fieldTwo{/**/
-    display:grid;
-    margin-top: 50px;/**/
-   
-    
-    
-}
+
 input{
     width: 200px;
     border-radius: 5px;
@@ -72,4 +66,15 @@ input{
     font-size: 13px;
     font-family: 'Omnes';
     font-weight: 500;
+}
+#arrow{
+    Width :13px;
+    height: 14px;
+}
+.fieldTwo{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 90px auto ;
+
 }
