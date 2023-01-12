@@ -1,8 +1,8 @@
 import React from 'react';
-
+import Title_Pet from './Components/Preview/Title&Pet';
 import './App.css';
 import Document from './Components/Document/Document';
-import Preview from './Components/Preview/Preview';
+
 
 
 function App() {
@@ -15,9 +15,9 @@ function App() {
       <div className="column right">
       <div className='container'>
       <Document/>
-      {/* <Preview/> */}
+      {/* <Title_Pet/> */}
       </div>
-      
+     
       </div>
       
     </div>

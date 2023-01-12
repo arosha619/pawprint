@@ -23,8 +23,12 @@ export default function Document() {
             <input type="date" onChange={e=>setDate(e.target.value)} id="date"/>
 
             <label for="name">Upload Documents</label>
-            <area id='input4'/>
-            {/* <img id='upload' src={require("../../Images/Document/upload.png")}/> */}
+            <div id='input4'>
+            <img id='upload' src={require("../../Images/Document/upload.png")}/>
+            <p id='txt'>Upload Here</p>
+            
+            </div>
+            
             </div>
 
             <div className='fieldTwo'>
